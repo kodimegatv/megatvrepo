@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.megatvrepo" 
+       name="[B][COLOR blue]Mega[/COLOR] [COLOR white]TV[/COLOR] [COLOR gold]Repo[/COLOR][/B]" 
+       version="3.0" 
+       provider-name="[B][COLOR blue]Mega[/COLOR] [COLOR white]TV[/COLOR][/B]">
+  <requires>
+  <import addon="xbmc.addon" version="12.0.0"/>
+         
+  </requires>
+  
+  
+  <extension point="xbmc.addon.repository" name="Mega TV Repository">
+    
+      <dir>
+      <info compressed="false">https://raw.githubusercontent.com/kodimegatv/megatvrepo/master/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/kodimegatv/megatvrepo/master/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/kodimegatv/megatvrepo/master</datadir>
+      <hashes>false</hashes>
+    </dir>
+  
+  <dir minversion="17.0.0" maxversion="18.9.0">
+      <info compressed="false">https://raw.githubusercontent.com/kodimegatv/megatvrepo/master/leia/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/kodimegatv/megatvrepo/master/leia/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/kodimegatv/megatvrepo/master/leia</datadir>
+      <hashes>false</hashes>
+    </dir>
+   
+   <dir minversion="18.9.1">
+      <info compressed="false">https://raw.githubusercontent.com/kodimegatv/megatvrepo/master/matrix/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/kodimegatv/megatvrepo/master/matrix/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/kodimegatv/megatvrepo/master/matrix</datadir>
+      <hashes>false</hashes>
+    </dir>
+    
+  </extension>
+  
+  <extension point="xbmc.addon.metadata">
+    <summary lang="pt">Repositório Oficial Mega TV Repo</summary>
+    <description lang="pt">Repositório Oficial Mega TV Repo --> Proibido Reprodução sem Prévia Autorização</description>
+    <disclaimer lang="pt">[B][COLOR white]OBRIGADO POR ACESSAR NOSSO[/COLOR] [COLOR gold]REPOSITÓRIO[/COLOR][/B]</disclaimer>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
